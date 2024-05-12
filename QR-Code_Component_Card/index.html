@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      height: 100%;
+      border-style: 100%;
+    }
+    .main{
+      height: 100vh;
+      width: 100%;
+      background-color:#d6e1f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .qr-container{
+      width: 300px;
+      background-color: white;
+      padding: 1rem;
+      border-radius: .5rem;
+      display: flex;
+      flex-direction: column;
+    align-items: center;
+      gap: 1rem;
+      box-shadow: 0px 0px 8px 4px rgb(207, 207, 207);
+    }
+    .qr-image{
+      width: 100%;
+    }
+    .qr-image img{
+      border-radius: .5rem;
+      width: 100%;
+    }
+    h2{
+      text-transform: capitalize;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="qr-container">
+      <div class="qr-image">
+        <img src="./images/image-qr-code.png" alt="">
+      </div>
+      <h2>Improve your front-end <br> by buildings projects</h2>
+      <p>Scan the Qr code to Visit the frontend <br> mentor and take your coding skills to <br> next level </p>
+
+    </div>
+  </div>
+</body>
+</html>
